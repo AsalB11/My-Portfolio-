@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body class="projects">
+    <header class="topbar">
+        <div class="logo">MyPortfolio</div>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <nav class="nav" id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1>My Projects</h1>
+        <div class="filters">
+            <button data-category="all" onclick="filterProjects('all')">All</button>
+            <button data-category="web" onclick="filterProjects('web')">Web</button>
+            <button data-category="uiux" onclick="filterProjects('uiux')">UI/UX</button>
+        </div>
+        
+        <div class="project-gallery">
+            <a href="https://asalb11.github.io/My-Portfolio-" target="_blank" class="project" data-category="web">
+                Portfolio Website
+            </a>
+            <a href="https://www.figma.com/file/your-uiux-link" target="_blank" class="project" data-category="uiux">
+                UI Mockup Design
+            </a>
+            <a href="https://github.com/AsalB11/Responsive-Blog" target="_blank" class="project" data-category="web">
+                Responsive Blog
+            </a>  </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 BanjaraAsal | All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.facebook.com/share/172oCgreB4/" target="_blank" aria-label="Facebook" rel="noopener noreferrer">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/AsalB11/My-Portfolio-" target="_blank" aria-label="GitHub" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter" rel="noopener noreferrer">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        </footer>
+      
+    <script src="js/script.js"></script>
+</body>
+
+</html>
